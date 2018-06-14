@@ -107,6 +107,14 @@ fields:
       label: Is button?
     config:
       labelField: textline
+  - type: blocks
+    name: overflow_bug
+    label: overflow bug
+    template_types:
+    - call-to-action
+    - create-site-button-js
+    - hero
+    - feature
 - type: boolean
   name: private
   label: Exclude from sitemap?
