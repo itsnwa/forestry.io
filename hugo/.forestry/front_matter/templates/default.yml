@@ -69,7 +69,7 @@ fields:
     date_format: MMMM DD, YYYY
     time_format: h:mmA
     required: true
-  default: 2017-12-07 04:00:00 +0000
+  default: 2017-12-07 05:00:00 +0100
 - type: datetime
   name: expirydate
   label: Expiry Date
@@ -77,7 +77,7 @@ fields:
   config:
     date_format: MMMM DD, YYYY
     time_format: h:mmA
-  default: 2030-01-01 04:00:00 +0000
+  default: 2030-01-01 05:00:00 +0100
 - type: field_group
   label: Footer Call To Action
   name: cta
@@ -131,56 +131,56 @@ fields:
   name: menu
   label: menu
 pages:
-- terms.md
-- docs/troubleshooting
 - docs/changelog
-- docs/faqs
-- docs/welcome
-- docs/git-sync
-- docs/_index.md
-- careers/software-engineer.md
-- careers/marketing.md
 - careers/admin.md
-- careers/_index.md
-- careers/devrel.md
-- careers/full-stack.md
-- blog/the-new-forestry-io.md
-- blog/renaming-files-and-improving-team-editing.md
-- blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn.md
-- blog/building-a-company-component-library.md
-- blog/master-image-delivery-with-cloudinary.md
-- blog/cloudinary-integration.md
-- blog/up-and-running-with-hugo-part-2.md
 - blog/a-hugo-update-everyone-should-be-talking-about.md
-- blog/march-27th-service-outage.md
-- blog/why-we-built-forestry.md
-- blog/build-a-json-api-with-hugo.md
-- blog/hugo-vs-jekyll-benchmark.md
-- blog/discontinuing-wysiwyg-editor-new-focus-on-markdown.md
-- blog/search-with-algolia-in-hugo.md
-- blog/sawmill-a-layout-composer-for-hugo-and-forestry.md
-- blog/sawmill-layout-composer-for-hugo-and-forestry.md
-- blog/landing-page-create-static-site-copy.md
-- blog/what-s-new-in-jekyll-3.8.md
-- blog/instant-production-ready-scaffolding-with-create-static-site.md
-- blog/up-and-running-with-hugo.md
 - blog/bigger-better-editor.md
-- blog/layout-improvements.md
 - blog/big-improvements-to-front-matter-templates.md
+- docs/troubleshooting
+- docs/faqs
+- blog/build-a-json-api-with-hugo.md
 - blog/_index.md
-- blog/search-with-algolia-in-jekyll.md
+- careers/_index.md
+- docs/_index.md
+- careers/devrel.md
+- blog/cloudinary-integration.md
+- blog/landing-page-create-static-site-copy.md
 - blog/front-matter-templates.md
 - blog/discontinuing-zip-sites.md
-- blog/forestry-gitlab.md
+- blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn.md
+- blog/search-with-algolia-in-jekyll.md
 - blog/forestryio-techstars-2016.md
+- docs/git-sync
+- careers/marketing.md
+- careers/full-stack.md
+- blog/discontinuing-wysiwyg-editor-new-focus-on-markdown.md
+- blog/how-to-use-hugo-s-image-processing-with-forestry.md
+- blog/hugo-vs-jekyll-benchmark.md
+- blog/instant-production-ready-scaffolding-with-create-static-site.md
 - blog/hugo-and-jekyll-compared.md
 - blog/choose-static.md
-- blog/improved-collaboration-and-more.md
 - blog/introducing-forestry-config-files.md
+- docs/welcome
+- blog/renaming-files-and-improving-team-editing.md
+- blog/master-image-delivery-with-cloudinary.md
+- blog/march-27th-service-outage.md
+- blog/new-pricing-organization-accounts.md
+- careers/software-engineer.md
+- blog/sawmill-a-layout-composer-for-hugo-and-forestry.md
+- blog/sawmill-layout-composer-for-hugo-and-forestry.md
+- terms.md
+- blog/search-with-algolia-in-hugo.md
+- blog/test.md
+- blog/the-new-forestry-io.md
+- blog/up-and-running-with-hugo-part-2.md
+- blog/up-and-running-with-hugo.md
+- blog/what-s-new-in-jekyll-3.8.md
+- blog/what-s-new-in-jekyll-3-4-0.md
+- blog/building-a-company-component-library.md
+- blog/why-we-built-forestry.md
+- blog/layout-improvements.md
+- blog/forestry-gitlab.md
+- blog/improved-collaboration-and-more.md
 - blog/introducing-media-management.md
 - blog/wysiwyg-formatting-in-front-matter.md
-- blog/what-s-new-in-jekyll-3-4-0.md
-- blog/new-pricing-organization-accounts.md
-- blog/test.md
 - blog/join-our-slack-community.md
-- blog/how-to-use-hugo-s-image-processing-with-forestry.md
