@@ -125,6 +125,11 @@ fields:
 - type: blocks
   name: blocks_bug
   label: blocks bug
+  template_types:
+  - call-to-action
+  - create-site-button-js
+  - hero
+  - feature
 pages:
 - showcase/borisfx.md
 - showcase/developerecosystem.md
